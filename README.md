@@ -47,6 +47,8 @@ If you changed something on the frontend and wants to serve that as web applicat
 1. Build React app with npm script
 ```
 cd cialdnb/cial_front
+
+npm install
 npm run-script build
 ```
 2. Copy content of build folder into a public folder in cial_back
