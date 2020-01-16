@@ -8,11 +8,18 @@ Go to https://nodejs.org/en/ and https://git-scm.com/downloads and install neces
 
 After the prerequisites are fulfilled follow the next steps.
 
+0. Open terminal
+```
+Next commands execute in terminal.
+```
 1. Clone this repository to your pc.
 ```
 git clone https://github.com/loncaa/cialdnb.git
 ```
-2. Position yourself in the 'cialdnb/cial_back' folder
+2. Change current directory to 'cialdnb/cial_back'
+```
+cd cialdnb/cial_back
+```
 3. Execute the next commands:
 ```
 npm install
