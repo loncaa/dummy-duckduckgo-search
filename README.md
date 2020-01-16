@@ -1,7 +1,7 @@
 # Prerequisites
 
 Before starting the project its necessary to have installed node.js and git.
-If you havent't, install these two applications.
+If you haven't, install these two applications.
 Go to https://nodejs.org/en/ and https://git-scm.com/downloads and install necessary programs.
 
 # Installing
