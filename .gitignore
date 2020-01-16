@@ -1,0 +1,17 @@
+# dependencies
+/cial_back/node_modules
+/cial_front/node_modules
+
+/cial_back/.git
+/cial_front/.git
+
+/cial_back/.idea
+/cial_front/.idea
+
+/cial_back/*.iml
+/cial_front/*.iml
+
+# production
+/cial_front/build
+
+.idea
