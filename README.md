@@ -40,7 +40,7 @@ The user interface is created with Material-UI predefined components.
 
 User search queries are preserved in a file called 'search_history'
 
-##Frontend Changes
+## Frontend Changes
 
 If you changed something on the frontend and wants to serve that as web application follow the next steps.
 
