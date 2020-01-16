@@ -9,15 +9,15 @@ Go to https://nodejs.org/en/ and https://git-scm.com/downloads and install neces
 After the prerequisites are fulfilled follow the next steps.
 
 1. Clone this repository to your pc.
-`` `
+```
 git clone https://github.com/loncaa/cialdnb.git
-`` `
+```
 2. Position yourself in the 'cialdnb/cial_back' folder
 3. Execute the next commands:
-`` `
+```
 npm install
 node ./src/bin/www
-`` `
+```
 4. Open your browser and in the URL field type: http://localhost:4001
 
 ## Technical Overview
