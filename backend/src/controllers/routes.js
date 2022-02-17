@@ -1,5 +1,5 @@
-const searchController = require('./search-controller')
-const historyController = require('./history-controller')
+const searchController = require('./search.controller')
+const historyController = require('./history.controller')
 
 function exposeApplicationRoutes(pathPrefix, app){
 
