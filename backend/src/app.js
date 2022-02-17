@@ -37,7 +37,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500).json({ok: false, message: 'Not found'})
 });
 
-var historyDataService = require('./service/historyDataService')
+var historyDataService = require('./service/history-data.service')
 historyDataService.loadHistory();
 
 module.exports = app;

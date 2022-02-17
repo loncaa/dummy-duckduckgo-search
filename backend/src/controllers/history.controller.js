@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var historyDataService = require('../service/historyDataService');
+var historyDataService = require('../service/history-data.service');
 
 const mapping = 'history';
 

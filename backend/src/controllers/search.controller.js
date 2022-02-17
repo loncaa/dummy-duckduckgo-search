@@ -3,8 +3,8 @@ var express = require('express');
 var router = express.Router();
 
 const axios = require('axios');
-const searchResponseHelper = require('../helpers/searchResponseHelper')
-const historyDataService = require('../service/historyDataService')
+const searchResponseHelper = require('../helpers/search-response.helper')
+const historyDataService = require('../service/history-data.service')
 
 const mapping = 'search';
 
