@@ -6,11 +6,11 @@ const HISTORY_LOCATION = '../search_history'
 
 let historyArray = []
 class HistoryDataService {
-  static historyLocation = path.join(__dirname, HISTORY_LOCATION);
+  static historyFilePath = path.join(__dirname, HISTORY_LOCATION);
 
   static loadHistory() {
     return new Promise((resolve, reject) => {
-      const readStream = fs.createReadStream(HistoryDataService.historyLocation);
+      const readStream = fs.createReadStream(HistoryDataService.historyFilePath);
       const queries = [];
 
       readStream.pipe(es.split()).pipe(es.map(line => {
@@ -35,7 +35,7 @@ class HistoryDataService {
 
   static addToHistory(query){
     historyArray.push(query)
-    fs.appendFile(HistoryDataService.historyLocation, `\n${query}`, () => {})
+    fs.appendFile(HistoryDataService.historyFilePath, `\n${query}`, () => {})
     return Promise.resolve(historyArray)
   }
 }
