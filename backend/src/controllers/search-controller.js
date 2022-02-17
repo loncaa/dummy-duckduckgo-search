@@ -1,3 +1,4 @@
+const { query } = require('express-validator');
 var express = require('express');
 var router = express.Router();
 
@@ -10,7 +11,7 @@ const mapping = 'search';
 const generateQueryUrl = (query) => `https://api.duckduckgo.com/?q=${query}&format=json`;
 
 /* GET home page. */
-router.get(`/${mapping}`, function(req, res, next) {
+router.get(`/${mapping}`, query('q').trim().escape(), function(req, res, next) {
 
   const query = req.query.q;
 
